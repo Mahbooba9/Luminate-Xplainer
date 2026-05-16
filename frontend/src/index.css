@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+  .dark body {
+    @apply bg-dark-900 text-gray-100;
+  }
+}
+
+.typing-animation::after {
+  content: '...';
+  animation: typing 1.5s infinite steps(4, end);
+}
+
+@keyframes typing {
+  0%, 100% { content: ''; }
+  25% { content: '.'; }
+  50% { content: '..'; }
+  75% { content: '...'; }
+}
+
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
+.dark .glass-panel {
+  @apply bg-dark-800/80 border-gray-700/50;
+}
