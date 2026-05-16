@@ -18,7 +18,7 @@ Luminate Xplainer is a premium, AI-powered educational platform designed to brea
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Vite, Tailwind CSS, React-Markdown, Mermaid.js
+- **Frontend:** React, CSS.
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB Atlas, Mongoose
 - **AI Engine:** Google Gemini API (`@google/genai`)
